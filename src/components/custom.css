@@ -1,0 +1,133 @@
+.custom-pagination-row {
+    display: flex;
+    justify-content: center;
+}
+
+.data {
+    display: contents !important;
+}
+
+.flexData {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 70px;
+}
+
+.post-card {
+    width: 845px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+}
+
+
+.sidebar{
+    background-color: #e6eef4; 
+    box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.post-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+.post-card2 {
+    width: 250px;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+    margin-left: 30px;
+}
+
+/* .post-card1 {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+    border-radius: 100%;
+    
+}
+
+.post-card1:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+} */    
+
+.custom-pagination-row {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.colorData{
+    border: #ffffff !important;
+    color: red !important;
+    background-color: #ffffff !important;
+    font-size: 2rem !important;
+    border-radius: 100% !important;
+    width: 61px !important;
+    height: 60px !important;
+}
+
+
+.photo-container {
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.profile-photo {
+    width: 60px; /* Width of the photo */
+    height: 60px; /* Height of the photo */
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Ensure the photo covers the circle */
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.content h5 {
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+
+.content p {
+    margin: 0;
+}
+
+
+.centerData{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerData h3{
+    font-size: 25px;
+    font-weight: 700 !important;
+    margin-bottom: 20px;
+}
+
+.centerData button{
+    width: 100% !important;
+    height: 60px !important;
+    color: black !important;
+    font-size: 20px !important;
+    font-weight: 500;
+    background-color: #97edc8 !important;
+    border-color: #97edc8 !important;
+}
+
+.datacenter{
+    
+}
