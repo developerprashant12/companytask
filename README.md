@@ -2,9 +2,12 @@ This project was bootstrapped with Create React App.
 
 How to run the project ->
 
-clone the project url
+clone the project url:
+
 npm install
 npm start
+
+
 Available Scripts
 In the project directory, you can run:
 
